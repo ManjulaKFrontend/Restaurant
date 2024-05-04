@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Goblin+One&family=Imperial+Script&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing: border-box;   
+}
+body{
+    font-family: "Philosopher", sans-serif!important;
+    font-weight: 600;
+    font-style:normal;
+    background-color: rgb(250, 114, 10)!important;
+
+}
+:root{
+
+--nav-links:17px;
+--btn:13px;
+--mainhead:40px;
+--sidehead:25px;
+--para:20px;
+--btn-color:orange;
+}
+
+
+h5{
+
+    font-size: var(--mainhead)!important;
+    font-weight: bold!important;
+    color: green!important;
+}
+
+
+
+/***************
+1.Navbar
+****************/
+nav{
+    background-color: rgb(250, 114, 10);
+    box-shadow:  -10px 0 10px 0 black;
+}
+.nav-link{
+    font-size: var(--nav-links)!important;
+    color: white!important;
+}
+.nav-link:hover{
+    color: black!important;
+    transition: 0.5s;
+}
+.act{
+    color: black!important;
+}
+.logo i{
+    font-size:30px!important;
+}
+/* ************
+home section
+*************** */
+#home img{
+    height: 100vh!important;
+}
+#home .book{
+    background-color: green!important;
+    padding: 10px 40px!important;
+}
+#home .book:hover{
+    background-color: transparent!important;
+    border: 2px solid green!important;
+    transition: 0.5s!important;
+}
+
+
+/*****************
+about section
+******************/
+
+#about  p{
+    text-align:justify;
+}
+#about .btn{
+    background-color: green!important;
+}
+#dish p{
+    text-align:center;
+}
+
+
+
+
+ /*****************
+ dishes
+ *******************/
+
+ #dish img{
+    width: 100px;
+    height: 100px;
+ }
+ #dish p{
+    line-height: 30px;
+ }
+
+.card {
+box-shadow: 1px 2px 11px 4px rgba(14 55 54/15%);
+}
+.our-dish  .card  .discount{
+ clip-path:polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0 50%, 0 0)
+}
+.dish .btn:hover{
+color: black!important;
+transition: 0.5s;
+}
+.dish .fa-cart-shopping:hover{
+    color: black!important;
+    transition: 0.5s;
+}
+#about p{
+line-height: 30px;
+}
+
+
+
+/**************
+menu
+**************/
+#menu{
+    padding-top: 150px !important;
+}
+#menu img{
+    height: 100px;
+    width: 100px;
+
+}
+/***************
+review
+****************/
+
+
+#review img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+#review i{
+    font-size: 30px;
+}
+
+#review .col-lg-3{
+border-bottom: 5px solid green!important;
+  
+}
+#review .col-lg-3:hover{
+    transform: translateY(10px);
+    transition: 0.5s;cursor: pointer;
+    background-color: grey!important;
+    border-radius: 20px!important;
+}
+#review p{
+    font-weight: bold;
+    font-size: 12px!important;
+   
+}
+#review i{
+    color: green;
+    font-size: 13px!important;
+}
+#review p{
+    text-align: center!important;
+}
+
+
+/**************
+  order      
+***************/
+#contact{
+ background-color: rgb(250, 114, 10)!important;
+}
+
+.order a{
+ text-decoration: none;
+}
+.order li a:hover{
+    color: white!important;
+    cursor: pointer;
+    transition: 0.5s; 
+}
+.order li:hover{
+    color: white!important;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.order p:hover{
+    color: white!important;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#contact i{
+    padding-right: 10px;
+}
+@media only screen and (max-width:500px) and (min-width:200px){
+
+    section p{
+        font-size: 12px;
+    }
+    section h5{
+        font-size: 20px!important;
+    }
+    #about h1{
+        font-size: 18px;
+    }
+}
+
+
+
